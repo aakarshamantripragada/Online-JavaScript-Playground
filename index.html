@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePlay - JS Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <h1>CodePlay</h1>
+    <button id="runBtn">Run ▶</button>
+    <button id="clearBtn">Clear Console</button>
+  </header>
+
+  <main class="layout">
+    <section class="editor-panel">
+      <h2>JavaScript Editor</h2>
+      <textarea id="codeEditor" spellcheck="false">
+// Write your JavaScript code here
+console.log("Welcome to CodePlay!");
+      </textarea>
+    </section>
+
+    <section class="output-panel">
+      <h2>Output Console</h2>
+      <div id="output"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <label>
+      <input type="checkbox" id="themeToggle">
+      Dark mode
+    </label>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
